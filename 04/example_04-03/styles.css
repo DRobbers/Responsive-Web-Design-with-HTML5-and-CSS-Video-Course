@@ -14,4 +14,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 0 auto;
+
+}
+
+.InlineFlex {
+    display: inline-flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 4px;
+    background-color: indigo;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ddd;
 }

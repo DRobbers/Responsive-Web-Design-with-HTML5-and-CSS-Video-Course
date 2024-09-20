@@ -28,3 +28,7 @@ body {
     border-radius: 3px;
     color: #ddd;
 }
+
+.left {
+    padding-left: 10px;
+}

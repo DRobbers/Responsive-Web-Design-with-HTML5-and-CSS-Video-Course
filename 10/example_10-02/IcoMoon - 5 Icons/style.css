@@ -65,3 +65,15 @@
 #icon-multitouch .path3 {
 	fill: currentcolor;
 }
+
+.item {
+	background-image: url(PNG/drag-right.png);
+}
+
+@supports (fill: black) {
+	.item {
+		background-image: url(SVG/drag-left.svg);
+		background-repeat: no-repeat;
+		
+	}
+}

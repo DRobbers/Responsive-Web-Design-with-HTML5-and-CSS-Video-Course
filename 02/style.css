@@ -1,0 +1,27 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.rwd-Chapters_List {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #545454;
+
+
+}
+
+.rwd-Chapter {
+    flex: 0 0 33%;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+
+.rwd-Chapter::before {
+    left: -20px;
+} 

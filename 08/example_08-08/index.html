@@ -12,6 +12,14 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <picture>
+            <source media="(min-width: 480px)" srcset="bg.jpg" />
+            <source media="(min-width: 960px)" srcset="el-cap@1x.jpg" />
+            <img src="el-cap@2x.jpg" alt="mountains" />
+        
+        </picture>
+
+    <section>
         <div class="tri-right"></div>
         <div class="filter-blur">blur(2px)</div>
         <div class="filter-brightness">brightness(2)</div>
@@ -22,5 +30,6 @@
         <div class="filter-opacity">opacity(50%)</div>
         <div class="filter-saturate">saturate(15%)</div>
         <div class="filter-sepia">sepia(.75)</div>
+    </section>
     </body>
 </html>
